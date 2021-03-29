@@ -47,3 +47,5 @@ with open("user_statistics.csv", "w") as user_file:
 			user_file.write("{}, {}, {}\n".format(line[0], line[1].get("INFO"), line[1].get("ERROR")))
 		else:
 			user_file.write("{}, {}, {}\n".format(line[0], line[1], line[2]))
+			
+#Adding this comment
